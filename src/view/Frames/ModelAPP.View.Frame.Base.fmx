@@ -1,0 +1,52 @@
+object FmeBase: TFmeBase
+  Size.Width = 422.000000000000000000
+  Size.Height = 690.000000000000000000
+  Size.PlatformDefault = False
+  object lytContent: TLayout
+    Align = Contents
+    Size.Width = 422.000000000000000000
+    Size.Height = 690.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object rctBase: TRectangle
+      Align = Contents
+      Fill.Color = claBlack
+      Opacity = 0.300000011920929000
+      Size.Width = 422.000000000000000000
+      Size.Height = 690.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object lytDialog: TLayout
+      Align = Client
+      Size.Width = 422.000000000000000000
+      Size.Height = 690.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object rctFundoDialog: TRectangle
+        Align = Client
+        Fill.Color = xFFCFDBDD
+        Size.Width = 422.000000000000000000
+        Size.Height = 640.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object lytFooter: TLayout
+        Align = MostBottom
+        Position.Y = 640.000000000000000000
+        Size.Width = 422.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object rctFundoFooter: TRectangle
+          Align = Contents
+          Fill.Color = claWhite
+          Size.Width = 422.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+      end
+    end
+  end
+end
